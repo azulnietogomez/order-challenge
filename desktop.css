@@ -1,0 +1,20 @@
+body {
+    background: url(./assets/pattern-background-desktop.svg);
+    background-color: hsl(225,100%,94%);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.os-container {
+    width: 400px;
+    height: 600px;
+}
+
+.os--img {
+    width: 100%;
+    height: 190px;
+}
+
+.os--content {
+    padding: 0 15px 0 15px;
+}
