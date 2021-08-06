@@ -77,6 +77,93 @@ body {
     font-weight: 900;
     font-size: 1.8rem;
     margin-bottom: 20px;
-    
+}
+
+.os--content p {
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    font-weight: 500;
+
+    color: var(--Desaturated-blue);
+}
+
+.plan-selection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 95%;
+    height: 80px;
+
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: var(--Very-pale-blue);
+    border-radius: 15px;
+}
+
+.music-icon {
+    width: 50px;
+    height: 50px;
+
+    background-image: url(./assets/icon-music.svg);
+    border-radius: 50%;
+}
+
+.plan-section .plan {
+    font-size: 1.3rem;
+    text-align: left;
+    font-weight: 700;
+    line-height: 1.8rem;
+    color: var(--Dark-blue
+    );
+}
+
+.plan-selection .price {
+    font-size: 1,2rem;
+    font-weight: 500;
+    color: var(--Desaturated-blue);
+}
+
+.plan-selection a {
+    font-weight: 700;
+    color: var(--Bright-blue);
+}
+
+.plan-selection a:hover{
+    text-decoration: none;
+    color: var(--Desaturated-blue);
+    transition-duration: .2s;
+}
+
+.btn {
+    width: 95%;
+    height: 50;
+    font-weight: 900;
+    font-size: 1.2rem;
+
+    border-radius: 10px;
+    margin-bottom: 2px;
+    cursor: pointer;
+    border-style: none;
+}
+
+.pay-btn {
+    background-color: var(--Bright-blue);
+    color: white;
+
+    box-shadow: 0px 24px 27px -7px rgba(0,0,0,0.33);
+}
+
+.pay-btn:hover {
+    background-color: var(--Desaturated-blue);
+    transition-duration: .2s;
+}
+
+.cancel-btn {
+    background-color: transparent;
+    transition: .2s;
+
     
 }
