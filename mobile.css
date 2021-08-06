@@ -17,7 +17,7 @@
 
 html {
     font-size: 62.5%;
-    font-family: 'Red Hat Display', sans-serif;;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 body {
@@ -60,5 +60,23 @@ body {
 }
 
 .os--content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 90%;
+    height: auto;
+
+    padding-top: 30px;
+}
+
+.os--content h1 {
+    color: var(--Dark-blue);
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    
     
 }
